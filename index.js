@@ -3,3 +3,5 @@ function printDevInfo(firstName, lastName, twitterUser, githubUser) {
 }
 
 console.log(printDevInfo("Walmyr", "Filho", "@walmyrlimaesilv", "wlsf82"));
+
+module.exports = printDevInfo;
