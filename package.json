@@ -4,7 +4,7 @@
   "description": "A repo to experiment with Better Code Hub",
   "main": "index.js",
   "scripts": {
-    "test": "node index.test.js"
+    "test": "node tests/index.test.js"
   },
   "repository": {
     "type": "git",

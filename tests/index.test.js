@@ -1,6 +1,6 @@
 const test = require("tape");
 
-const printDevInfo = require("./index.js");
+const printDevInfo = require("../index.js");
 
 test("returns correct info for dev: Walmyr", t => {
   const info = {
