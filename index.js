@@ -1,5 +1,5 @@
-function printDevInfo(firstName, lastName, twitterUser, githubUser) {
-  return `${firstName} ${lastName}, ${twitterUser}, ${githubUser}`;
+function printDevInfo(info) {
+  return `${info.firstName} ${info.lastName}, ${info.twitter}, ${info.github}`;
 }
 
 module.exports = printDevInfo;
