@@ -1,0 +1,25 @@
+{
+  "name": "bettercodehub-samples",
+  "version": "1.0.0",
+  "description": "A repo to experiment with Better Code Hub",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wlsf82/bettercodehub-samples.git"
+  },
+  "keywords": [
+    "bettercodehub"
+  ],
+  "author": "Walmyr Filho <wlsf82@gmail.com> (walmyr-filho.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wlsf82/bettercodehub-samples/issues"
+  },
+  "homepage": "https://github.com/wlsf82/bettercodehub-samples#readme",
+  "devDependencies": {
+    "tape": "^4.9.2"
+  }
+}
