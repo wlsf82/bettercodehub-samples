@@ -10,16 +10,11 @@ test("returns correct info for dev: Walmyr", t => {
     github: "wlsf82"
   };
 
-  const result = printDevInfo(
-    info.firstName,
-    info.lastName,
-    info.twitter,
-    info.github
-  );
+  const result = printDevInfo(info);
 
-  const expected = `${info.firstName} ${info.lastName}, ${
-    info.twitter
-  }, ${info.github}`;
+  const expected = `${info.firstName} ${info.lastName}, ${info.twitter}, ${
+    info.github
+  }`;
 
   t.plan(1);
   t.equal(result, expected);
